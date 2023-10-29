@@ -27,7 +27,7 @@ mongoose
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://tvlorenzo.netlify.app"],
+    origin: ["http://localhost:3000", "https://tvlorenzo.netlify.app", "https://checking-out.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
